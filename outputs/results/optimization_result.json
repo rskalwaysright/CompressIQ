@@ -1,0 +1,24 @@
+{
+  "strategy": "greedy_sensitivity",
+  "target_budget_mb": 4.0,
+  "initial_size_mb": 8.9721,
+  "final_size_mb": 0.561,
+  "is_feasible": true,
+  "quantization_plan": {
+    "features.18.0": 2
+  },
+  "pruning_plan": {},
+  "decision_trace": [
+    {
+      "step": 1,
+      "layer_name": "features.18.0",
+      "compression_type": "quantization",
+      "selected_setting": "2-bit",
+      "marginal_mb_saved": 8.4112,
+      "marginal_loss_penalty": 0.0,
+      "sensitivity_score": 0.0,
+      "cumulative_size_mb": 0.561
+    }
+  ],
+  "infeasibility_reason": null
+}

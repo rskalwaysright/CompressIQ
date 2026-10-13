@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Datasets & checkpoints
+data/cifar-100-python/
+data/cifar-100-python.tar.gz
+outputs/checkpoints/*.pt
+outputs/checkpoints/*.pth
+outputs/checkpoints/*.bin
+*.pth
+*.pt
+
+# Streamlit run cache
+.streamlit/
+outputs/cache/
+
+# OS specific
+Thumbs.db
+.DS_Store
